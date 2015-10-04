@@ -1,11 +1,11 @@
 {
   "name": "we-theme-default",
-  "version": "0.0.1",
-  "description": "We.js we-theme-default theme",
+  "version": "0.3.0",
+  "description": "We.js default theme",
   "homepage": "https://yourthemehomepage.here",
   "repository": {
     "type": "git",
-    "url": "putyourthemerepositoryhere"
+    "url": "https://github.com/wejs/we-theme-default"
   },
   "main": "theme.js",
   "dependencies": {},
@@ -16,6 +16,10 @@
     "gulp-minify-css": "^1.2.1"
   },
   "optionalDependencies": {},
+  "author": {
+    "name": "Alberto Souza",
+    "email": "alberto.souza.99@gmail.com"
+  },
   "engines": {
     "node": "*"
   }
