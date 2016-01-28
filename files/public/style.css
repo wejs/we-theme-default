@@ -1,3 +1,43 @@
-/**
- * Theme css, put your css here or the processed css, this css will be public avaible
- */
+.user-banner {
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+
+  background-color: black;
+  background-position: center center;
+  background-size: cover;
+}
+
+.user-data {
+  margin-top: 5px;
+  margin-left: 3px;
+  background-color: transparent;
+
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.user-data img {
+  vertical-align: top;
+  float: left;
+  margin-right: 5px;
+}
+
+.user-data h1 {
+  display: inline;
+  margin-top: 0px;
+}
+
+.user-biography {
+  margin: 10px 0px;
+  font-size: 1.2em;
+}
+
+.user-displayName {
+  font-size: 1.8em;
+}
+
+.users {
+  text-align: center;
+}

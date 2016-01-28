@@ -48,6 +48,20 @@ module.exports = {
         }
       }
     },
+    'user-layout': {
+      template: __dirname + '/templates/server/layouts/user.hbs',
+      regions: {
+        highlighted: {
+          name: 'Highlighted'
+        },
+        sidebar: {
+          name: 'Sidebar'
+        },
+        afterContent: {
+          name: 'After content'
+        }
+      }
+    }
   },
   widgets: {}
 };
